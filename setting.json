@@ -1,7 +1,7 @@
 {
   "BOT_TOKEN": "YOUR_TOKEN",
   "MAX_TOKEN": 400,
-  "OPENAI_APIKEY": "YOUR_APIKEY_OPENAI",
+  "OPENAI_APIKEY": "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",
   "OWNER_ID": [@sofunsyabi],
   "debug": false 
 }
