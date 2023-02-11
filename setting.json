@@ -2,6 +2,6 @@
   "BOT_TOKEN": "YOUR_TOKEN",
   "MAX_TOKEN": 400,
   "OPENAI_APIKEY": "YOUR_APIKEY_OPENAI",
-  "OWNER_ID": [12345678],
+  "OWNER_ID": [@sofunsyabi],
   "debug": false 
 }
