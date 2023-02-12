@@ -32,7 +32,7 @@ bot.on('message', async (ctx) => {
     let args = body.split(" ").slice(1);
     let command = body.split(" ")[0].toLowerCase();
     if (!global.chatbot[userId]) {
-    chatbot[userId] = [`Ai: [${mtz.tz("Asia/Jakarta").locale("id").format("dddd, DD MMMM YYYY, HH:mm:ss")}]: Aku Adalah Chatbot Yang Di Ciptakan oleh Caliph Dev!`];
+    chatbot[userId] = [`Ai: [${mtz.tz("Asia/Jakarta").locale("id").format("dddd, DD MMMM YYYY, HH:mm:ss")}]: Aku Adalah Chatbot Yang Di Ciptakan oleh Arasya Rafii!`];
     }
 
     switch (command) {
@@ -64,7 +64,7 @@ https://t.me/${bot.botInfo.username.toLowerCase()}`;
         }
         break;
         case "/reset":
-        chatbot[userId] = chatbot[userId] ? chatbot[userId].slice(0, 1) : ["Ai: Aku Adalah Chatbot Yang Di Ciptakan oleh Caliph Dev!"];
+        chatbot[userId] = chatbot[userId] ? chatbot[userId].slice(0, 1) : ["Ai: Aku Adalah Chatbot Yang Di Ciptakan oleh Arasyaa!"];
         reply(chatId, "Sesi pesan kamu berhasil direset!", messageId);
         break;
         case "/ping":
